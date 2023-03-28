@@ -38,10 +38,6 @@ const options = [
 const App = () => {
     const [selected, setSelected] = useState(options[0])
 
-    //          used to hide the sections
-    //const [showDropdown, setShowDropdown] = useState(true)
-    {/* <button onClick={() => setShowDropdown(!showDropdown)}>Toggle Dropdown</button> */ }
-
     return (
         <div>
             <Header />

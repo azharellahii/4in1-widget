@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 
 const Route = ({ path, children }) => {
 
@@ -14,7 +14,7 @@ const Route = ({ path, children }) => {
         }
     }, [])
 
-    return currentPath === path ? children : null
+    return currentPath === path ? children : null;
 }
 
 export default Route
